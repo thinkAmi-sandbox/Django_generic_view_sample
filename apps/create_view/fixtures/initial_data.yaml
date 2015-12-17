@@ -1,0 +1,43 @@
+#--------------------------
+# Cultivar
+#--------------------------
+- model: create_view.Cultivar
+  pk: 1
+  fields:
+    name: ふじ
+- model: create_view.Cultivar
+  pk: 2
+  fields:
+    name: シナノゴールド
+- model: create_view.Cultivar
+  pk: 3
+  fields:
+    name: 秋映
+
+#--------------------------
+# Place
+#--------------------------
+- model: create_view.Place
+  pk: 1
+  fields:
+    name: 県内
+- model: create_view.Place
+  pk: 2
+  fields:
+    name: 県外
+
+#--------------------------
+# TimeRange
+#--------------------------
+- model: create_view.TimeRange
+  pk: 1
+  fields:
+    name: 朝
+- model: create_view.TimeRange
+  pk: 2
+  fields:
+    name: 昼
+- model: create_view.TimeRange
+  pk: 3
+  fields:
+    name: 夕

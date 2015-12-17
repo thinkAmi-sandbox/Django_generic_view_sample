@@ -18,6 +18,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^goal/', include('apps.goal.urls'), name='goal'),
+    url(r'^goal/', include('apps.goal.urls', namespace="goal")),
+    url(r'^cv/', include('apps.create_view.urls', namespace="create")),
     url(r'^admin/', admin.site.urls),
 ]
